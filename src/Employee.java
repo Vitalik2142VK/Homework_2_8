@@ -16,9 +16,8 @@ public class Employee {
     private int wages; // зарплата сотрудника
 
     // Дополнительные методы
-    public static void close(Employee employee) {
+    public static void idMinus() {
         id--;
-        employee = null;
     }
     public void shiftingDataObject(Employee other) {
         this.name = other.name;
